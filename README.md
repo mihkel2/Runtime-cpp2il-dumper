@@ -9,6 +9,10 @@ got tired of encryption keys requiring me to play the game anyways
 
 forked from samboy just made for android now and dumps at runtime :D
 
+
+thank samboy for this
+
+
 dump located
 within your sdcard
 
