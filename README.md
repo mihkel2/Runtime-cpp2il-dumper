@@ -25,6 +25,23 @@ how to load the libary
 invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V**
 
 
+
+lets say theres some shitty health and death code we will take alot of guesses but mostly accurate
+
+public void TakeDamage(int amount)
+{
+    health = health - amount;
+    if (health <= 0 && !isDead)
+    {
+        isDead = true;
+        Die(); // libil2cpp.so+0x4A21C0
+    }
+}
+
+this is what my Cpp2il returns 
+
+
+
 # issues
 doesnt bypass any encryptyion
 sometimes foreach for and certain things can be off
