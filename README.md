@@ -18,3 +18,8 @@ within your sdcard
 
 
 how to load the libary
+
+
+**const-string v0, "a365mobproject"
+
+invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V**
