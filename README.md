@@ -2,6 +2,9 @@
 got tired of keys and not being able to access cpp2il externally and stuff so here’s runtime for android
 
 
+only arm64
+
+
 
 got tired of encryption keys requiring me to play the game anyways 
 (and was really fun learning how to reverse games like this ) 
